@@ -1,0 +1,19 @@
+<div class="col-md-offset-4 col-md-4 login">    
+    <form id="login-form">
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Email</span>
+          </label>
+          <input type="email" name="email" class="form-control" [(ngModel)]="user.email" />
+        </div>
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Password</span>
+          </label> 
+          <input type="password" name="password" class="form-control" [(ngModel)]="user.password" />
+        </div>
+        <br>
+        <input type="submit" value="Login" class="btn btn-success btn-block" (click)="login()"/>
+        <br>
+    </form>
+</div> 

@@ -1,0 +1,11 @@
+1. Pull the Project source from Github
+URL : 
+2.Find the Mongodb Collection back up will be there at db_script folder. please restore the collections.
+3.Configure & provide the DB URL and Application port number in config.js file
+4.Open cmd in root folder and run 'npm install'.
+5.In root folder run 'node server.js'.
+6.Open the brower and type http://localhost:3000/ (Pls provide configured port number).
+7.And type username as test and password also test.
+
+
+
